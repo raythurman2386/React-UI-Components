@@ -7,11 +7,12 @@
 .main-title {
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
 }
 
 .title {
 	margin: 0;
-	font-size: 1.4rem;
+	font-size: 18px;
 }
 
 .address {
@@ -27,4 +28,5 @@
 
 .header-text {
 	margin: 0 .5rem;
+	font-size: 12px;
 }
