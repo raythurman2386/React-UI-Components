@@ -22,7 +22,7 @@
 
 .header-content {
 	display: flex;
-	width: 98%;
+	/* width: 98%; */
 }
 
 .header-text {

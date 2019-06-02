@@ -8,12 +8,14 @@ import FooterContainer from './components/FooterComponents/Footer';
 
 const App = () => {
 	return (
-		<div>
+		<AppStyle>
 			<HeaderContainer />
 			<CardContainer />
 			<FooterContainer />
-		</div>
+		</AppStyle>
 	);
 };
+
+const AppStyle = styled.div`width: 450px;`;
 
 export default App;
