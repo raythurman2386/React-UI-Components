@@ -4,17 +4,17 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
 	return (
-		<React.Fragment>
-			<Wrapper>
-				<CalcInput type='text' placeholder='0' />
-			</Wrapper>
-		</React.Fragment>
+		<Wrapper>
+			<CalcInput type='text' placeholder='0' />
+		</Wrapper>
 	);
 };
 
 const Wrapper = styled.div`
 	width: 100%;
 	height: 75px;
+	background-color: #333;
+	color: #fff;
 `;
 
 const CalcInput = styled.input`
@@ -22,10 +22,10 @@ const CalcInput = styled.input`
 	height: 75px;
 	font-size: 4rem;
 	padding: .5rem;
-	background-color: #333;
-	color: #fff;
 	text-align: right;
 	border: 1px solid white;
+	background-color: #333;
+	color: #fff;
 `;
 
 export default CalculatorDisplay;

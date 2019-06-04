@@ -1,25 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
-import './Button.css';
 
 const ActionButton = (props) => {
 	return (
-		<React.Fragment>
-			<Wrapper>
-				<ActionBtn>{props.text}</ActionBtn>
-			</Wrapper>
-		</React.Fragment>
+		<Wrapper className='action-button'>
+			<ActionBtn>{props.text}</ActionBtn>
+		</Wrapper>
 	);
 };
 
 const Wrapper = styled.div`
 	width: 75%;
-	height: 75px;
+	margin: 0.1rem;
 `;
 
 const ActionBtn = styled.button`
 	width: 100%;
-	color: #fff;
-	background-color: #333;
+	height: 75px;
+	color: #333;
+	background-color: #000;
 	font-size: 4rem;
+	text-align: center;
+	border: none;
 `;
+
+export default ActionButton;
