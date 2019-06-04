@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import ActionButton from './components/ButtonComponents/ActionButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+
 import './App.css';
 
 const App = () => {
 	return (
 		<AppWrapper className='App'>
 			<CalculatorDisplay />
-			<ActionButton text='CLEAR' />
+			<ButtonContainer />
 		</AppWrapper>
 	);
 };
